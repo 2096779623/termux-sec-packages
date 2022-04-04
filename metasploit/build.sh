@@ -9,7 +9,7 @@ TERMUX_PKG_PLATFORM_INDEPENDENT=true
 
 # Many dependencies specified here are required to build & install
 # ruby gems used by Metasploit.
-TERMUX_PKG_DEPENDS="apr, apr-util, autoconf, bison, clang, coreutils, curl, findutils, git, libffi, libgmp, libiconv, libpcap, libsqlite, libtool, libxml2, libxslt, make, ncurses, ncurses-utils, openssl, pkg-config, postgresql, readline, resolv-conf, ruby (>= 2.7.0), tar, termux-elf-cleaner, termux-tools, unzip, wget, zip, zlib"
+TERMUX_PKG_DEPENDS="git,cmake,binutils,autoconf,bison,clang,coreutils,curl,findutils,apr,apr-util,postgresql,openssl,openssl-1.1,openssl-tool,openssl1.1-tool,readline,libffi,libgmp,libpcap,libsqlite,libgrpc,libtool,libxml2,libxslt,ncurses,make,ncurses-utils,ncurses,git,wget,unzip,zip,tar,termux-tools,termux-elf-cleaner,pkg-config,git,ruby"
 
 termux_step_make_install() {
 	# Installer.
